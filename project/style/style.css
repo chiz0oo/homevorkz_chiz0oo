@@ -1,0 +1,45 @@
+
+		
+		body{
+			background-color: #B2F63D;
+		}
+		.headin {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+		h1{
+			font-size: 56px;
+			font-family: Segoe UI;
+			text-align: center;
+
+		}
+		h2{
+			font-size: 44px;
+			font-family: Segoe UI;
+		}
+		h3{
+            font-size: 36px;
+            font-family: Segoe UI;
+		}
+		h4{
+            font-family: Segoe UI;
+		}
+		h5{
+            font-family: Segoe UI;
+		}
+		h6{
+            font-family: Segoe UI;
+
+		}
+		p{
+			font-family: arial;
+		}
+		a{
+			font-family: Arial;
+			font-style: italic;
+		}
+		
+		.right-style {
+			text-align: right;
+		}
+
+		
