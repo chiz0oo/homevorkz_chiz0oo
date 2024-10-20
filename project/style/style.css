@@ -1,52 +1,40 @@
 
-		
-		body{
-			background-color: #B2F63D;
-		}
-		.headin {
-			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		}
-		.main-heading{
-			font-size: 56px;
-			font-family: Segoe UI;
-			text-align: center;
 
-		}
-		.chapter-heading{
-			font-size: 44px;
-			font-family: Segoe UI;
-		}
-		.sub-heading{
-			
-            font-size: 36px;
-            font-family: Segoe UI;
-		}
-		h4{
-            font-family: Segoe UI;
-		}
-		h5{
-            font-family: Segoe UI;
-		}
-		h6{
-            font-family: Segoe UI;
+body{
+	background-color: #B2F63D;
+}
+.heading {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-heading{
+	font-size: 56px;
+	text-align: center;
 
-		}
-		.txt{
-			font-family: arial;
-		}
-		.link{
-			font-family: Arial;
-			font-style: italic;
-		}
-		
-		.right-style {
-			text-align: right;
-		}
+}
+.chapter-heading{
+	font-size: 44px;
+	
+}
+.sub-heading{
+	font-weight: normal;
+	font-size: 36px;
+}
 
-		.txt {
-			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-			color: black;
-		}
+.link{
+	font-style: italic;
+}
+
+.right-style {
+	text-align: right;
+}
+
+.txt {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+добавить пораграф класс ткст
+добавить всем a классы link и txt
+где в стилях 2 слова поставить кавычки
+	*/
 
 
-		
