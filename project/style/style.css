@@ -6,17 +6,18 @@
 		.headin {
 			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		}
-		h1{
+		.main-heading{
 			font-size: 56px;
 			font-family: Segoe UI;
 			text-align: center;
 
 		}
-		h2{
+		.chapter-heading{
 			font-size: 44px;
 			font-family: Segoe UI;
 		}
-		h3{
+		.sub-heading{
+			
             font-size: 36px;
             font-family: Segoe UI;
 		}
@@ -30,10 +31,10 @@
             font-family: Segoe UI;
 
 		}
-		p{
+		.txt{
 			font-family: arial;
 		}
-		a{
+		.link{
 			font-family: Arial;
 			font-style: italic;
 		}
@@ -41,5 +42,11 @@
 		.right-style {
 			text-align: right;
 		}
+
+		.txt {
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color: black;
+		}
+
 
 		
