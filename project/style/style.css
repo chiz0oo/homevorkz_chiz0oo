@@ -19,6 +19,9 @@ body{
 	font-weight: normal;
 	font-size: 36px;
 }
+.txt {
+	font-family: Arial, Helvetica, sans-serif;
+}
 
 .link{
 	font-style: italic;
@@ -27,14 +30,13 @@ body{
 .right-style {
 	text-align: right;
 }
-
-.txt {
-	font-family: Arial, Helvetica, sans-serif;
+.nav-item{
+	display: block;
 }
+
 /* 
 добавить пораграф класс ткст
 добавить всем a классы link и txt
-где в стилях 2 слова поставить кавычки
 	*/
 
 
