@@ -33,6 +33,18 @@ body{
 .nav-item{
 	display: block;
 }
+.nav-item{
+    display: block;
+}
+.nav-item{
+    list-style-type: none;
+}
+.nav-square-markers{
+    list-style-type: square;
+}
+.nav-circle-markers{
+    list-style-type: circle;
+}
 
 /* 
 добавить пораграф класс ткст
