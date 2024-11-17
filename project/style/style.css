@@ -9,7 +9,7 @@
 }
 
 body{
-	background-color: aqua;
+	background-color: rgb(27, 87, 128);
 }
 .heading {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -55,7 +55,29 @@ body{
 .header{
 	margin-bottom: circle;
 }
+.nav-item{
+	display: block;
+}
+.img-float{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.sasali{
+	position: fixed;
 
+    width: 500px;
+    height: 50px;
+    
+    border: 5px solid rgb(27, 87, 128);
+	border-top: none;
+	border-left: none;
+}
+.bg-image {
+	height: 200px;
+	width: 80%;
+	background-image: url(../img/genshin.jpg);
+}
 /* 
 добавить пораграф класс ткст
 добавить всем a классы link и txt
