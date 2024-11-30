@@ -3,9 +3,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.starainnai{
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	font-size: 50px;
+}
 
 body{
-	background-color: #B2F63D;
+	display: flex;
+	max-width: 1200px;
+	min-height: 100vh;
+	flex-direction: ;
+	align-items ;
+	flex-grow ;
+	padding: 20px;
+	background-color: rgb(147, 233, 255);
 }
 .heading {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,22 +24,26 @@ body{
 .main-heading{
 	font-size: 56px;
 	text-align: center;
+	font-family: cursive;
 
 }
 .chapter-heading{
 	font-size: 44px;
-	
+	font-family: cursive;
 }
 .sub-heading{
 	font-weight: normal;
 	font-size: 36px;
+	font-family: cursive;
 }
 .txt {
 	font-family: Arial, Helvetica, sans-serif;
+	font-family: cursive;
 }
 
 .link{
 	font-style: italic;
+	font-family: cursive;
 }
 
 .right-style {
@@ -41,16 +56,54 @@ body{
     list-style-type: square;
 }
 .nav{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding-bottom: 20px;
 	padding: 15px;
     list-style-type: circle;
 }
 .header{
 	margin-bottom: circle;
 }
+.nav-item{
+	display: block;
+}
+.img-float{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.sasali{
+	position: fixed;
 
+    width: 500px;
+    height: 50px;
+    
+    border: 5px solid rgb(27, 87, 128);
+	border-top: none;
+	border-left: none;
+}
+.bg-image {
+	height: 200px;
+	width: 80%;
+	background-image: url(../img/genshin.jpg);
+}
+.main-container {
+	background-color: rgb(79, 247, 233);
+	padding: 20px;
+	border-radius: 20px;
+}
+.foter {
+    
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding-bottom: 20px;
+}
 /* 
-добавить пораграф класс ткст
-добавить всем a классы link и txt
+
+добавить чему то justify-content в подвале идописатьбоди
 	*/
 
 
