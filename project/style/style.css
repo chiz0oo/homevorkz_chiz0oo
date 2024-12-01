@@ -9,13 +9,14 @@
 }
 
 body{
-	display: flex;
-	max-width: 1200px;
-	min-height: 100vh;
-	flex-direction: ;
-	align-items ;
-	flex-grow ;
-	padding: 20px;
+	margin: 0 auto;
+    max-width: 1200px;
+    min-width: 800px;
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 	background-color: rgb(147, 233, 255);
 }
 .heading {
@@ -26,6 +27,10 @@ body{
 	text-align: center;
 	font-family: cursive;
 
+}
+.main-header {
+    position: sticky;
+    top: 0;
 }
 .chapter-heading{
 	font-size: 44px;
@@ -94,6 +99,10 @@ body{
 	padding: 20px;
 	border-radius: 20px;
 }
+.main-nav-item {
+	transition-property: transform;
+	transition-duration: 300ms;
+}
 .foter {
     
 	display: flex;
@@ -102,6 +111,8 @@ body{
 	padding-bottom: 20px;
 }
 /* 
+навигация  внутри хеадер
+в любимой игре в секшон 
 fdfdf
 добавить чему то justify-content в подвале идописатьбоди
 	*/
