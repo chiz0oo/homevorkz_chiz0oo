@@ -1,0 +1,259 @@
+* {
+    font-family: "Shadows Into Light", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle {
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50px 20px; */
+    /* border-radius: 10% 40%; */
+    /* border-radius: 50%; */
+    border-radius: 10% 20% 30% 40%;
+}
+
+.weight {
+    font-family: serif;
+    font-weight: 100;
+    font-weight: 200;
+    font-weight: 300;
+    font-weight: 400;
+    font-weight: 500;
+    font-weight: 600;
+    font-weight: 700;
+    font-weight: 800;
+    font-weight: 900;
+}
+
+.shadow {
+    text-shadow: 1px 1px 10px red;
+}
+
+.floats {
+    /* width: 850px; */
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.float {
+    width: 400px;
+    background-color: #ff8d5f;
+    padding: 20px;
+    border: 10px dashed rgb(255, 241, 50);
+    margin-bottom: 20px;
+    border-radius: 50px;
+
+    /* z-index: 2; */
+}
+
+.float-title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 44px;
+    text-shadow: 5px 5px 20px rgb(168, 255, 148);
+    text-transform: capitalize;
+    color: darkred;
+
+    /* position: absolute;
+    z-index: -1; */
+}
+
+.float-img {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.float-txt {}
+
+.bordered {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.red-text {
+    color: red;
+}
+.green-text {
+    color: green;
+}
+.blue-text {
+    color: blue;
+}
+
+.float-left {
+    height: 100px;
+    width: 100px;
+    background-color: #ff8d5f;
+
+    float: left;
+}
+.float-right {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+
+    float: right;
+}
+
+.shadow-1 {
+    text-shadow: 5px 5px;
+}
+.shadow-2 {
+    text-shadow: 5px 5px red;
+}
+.shadow-3 {
+    text-shadow: 5px 5px 5px green;
+}
+.shadow-4 {
+    text-shadow: 5px 5px 5px blue, 7px 7px 7px darkorange;
+}
+
+.line-height-1 {
+    color: red;
+    line-height: normal;
+}
+.line-height-2 {
+    color: green;
+    line-height: 16px;
+}
+.line-height-3 {
+    color: blue;
+    line-height: 300%;
+}
+
+.letter-spacing-1 {
+    color: red;
+    letter-spacing: normal;
+}
+.letter-spacing-2 {
+    color: green;
+    letter-spacing: 5px;
+}
+.letter-spacing-3 {
+    color: blue;
+    letter-spacing: -1px;
+}
+
+.text-transform-1 {
+    color: red;
+    text-transform: none;
+}
+.text-transform-2 {
+    color: green;
+    text-transform: uppercase;
+}
+.text-transform-3 {
+    color: blue;
+    text-transform: lowercase;
+}
+.text-transform-4 {
+    color: black;
+    text-transform: capitalize;
+}
+
+.font-style-1 {
+    font-family: serif;
+    color: red;
+    font-style: normal;
+}
+.font-style-2 {
+    font-family: serif;
+    color: green;
+    font-style: italic;
+}
+
+.font-weight-1 {
+    color: red;
+    font-weight: normal;
+}
+.font-weight-2 {
+    color: green;
+    font-weight: light;
+}
+.font-weight-3 {
+    color: blue;
+    font-weight: bold;
+}
+
+.font-size-1 {
+    color: red;
+    font-size: 16px;
+}
+.font-size-2 {
+    color: green;
+    font-size: 200%;
+}
+.font-size-3 {
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.font-family-1 {
+    color: red;
+    font-family: serif;
+}
+.font-family-2 {
+    color: green;
+    font-family: sans-serif;
+}
+.font-family-3 {
+    color: blue;
+    font-family: cursive;
+}
+.font-family-4 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.font-family-5 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-family-6 {
+    color: blue;
+    font-family: "Shadows Into Light", cursive;;
+}
+
+.border-radius-1 {
+    background-color: red;
+    border-radius: 20px;
+}
+.border-radius-2 {
+    background-color: green;
+    border-radius: 20px 10px;
+}
+.border-radius-3 {
+    background-color: blue;
+    border-radius: 20px 10px 15px;
+}
+.border-radius-4 {
+    background-color: red;
+    border-radius: 20px 10px 15px 30px;
+}
+.border-radius-5 {
+    background-color: green;
+    border-radius: 20%;
+}
+.border-radius-6 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.border-radius-7 {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.bg-image {
+    height: 800px;
+    width: 80%;
+    background-image: url(../img/capibara.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}

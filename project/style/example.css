@@ -1,13 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
 
-.nav-item{
-    display: block;
+.body {
+    padding: 30px;
+    margin: 0;
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 1600px;
+    min-width: 720px;
+    background-color: rgb(183, 255, 231);
 }
-.nav-item{
-    list-style-type: none;
+
+.main-heading {
+    margin-bottom: 20px;
+    font-size: 56px ;
 }
-.nav-square-markers{
-    list-style-type: square;
+
+.card {
+    width: 600px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 5px dashed rgb(94, 66, 158);
+    background-color: antiquewhite;
+    border-radius: 20px 40px;
 }
-.nav-circle-markers{
-    list-style-type: circle;
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.card-img {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 20%;
+    float: left;
+}
+
+.txt {
+    font-size: 18px;
 }

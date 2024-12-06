@@ -1,0 +1,81 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 100%;
+        margin-bottom: 20px;
+        border: 2px solid black;
+    }
+
+    .ball {
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    .snowman {
+        height: 500px;
+        display: none;
+    }
+
+    .snowman-head {
+        width: 80px;
+        height: 80px;
+
+        position: relative;
+        left: 185px;
+    }
+
+    .snowman-body {
+        width: 150px;
+        height: 150px;
+
+        position: relative;
+        left: 150px;
+    }
+
+    .snowman-legs {
+        width: 250px;
+        height: 250px;
+
+        position: relative;
+        left: 100px;
+    }
+
+    .img {
+        height: 100vh   ;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin: 0;
+    }
+
+    .img-left {
+        width: 400px;
+        height: 400px;
+        border: none;
+
+        background-color: rgb(249, 116, 116);
+        position: absolute;
+        top: -200px;
+        left: -200px;
+    }
+
+    .img-right {
+        width: 300px;
+        height: 300px;
+        border: none;
+
+        background-color: #90e977;
+        position: absolute;
+        right: -70px;
+        bottom: -100px;
+    }
+
