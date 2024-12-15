@@ -5,10 +5,53 @@
     font-family: "Ubuntu", sans-serif;
 }
 
-html {
-    cursor: url(../img/cursor.png), auto ;
+.main-title {
+
 }
 
+.link {
+    
+}
+
+.link:hover {
+
+}
+
+.link:active {
+
+}
+
+.btn {
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: background-color 100ms ease-in-out 
+    color 100ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) ;
+}
+
+.btn:active {}
+
+.one-colum-flex-container {}
+
+.one-line-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-colum-grid-container {
+display: grid;
+gap: 20px;
+grid-template-columns: auto auto auto ;
+grid-auto-rows: 100px;
+}
 .body {
     min-height: 100vh;
     background-image: radial-gradient(#313131, #313131 );
@@ -17,18 +60,14 @@ html {
     padding: 90px;
     flex-direction: column;
 }
+
 .main-container {
     background-color: #c9e956;
     padding: 20px;
     border-radius: 20px;
     box-shadow:  #c9e956 5px 5px 5px;
 }
-.one-line-flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-}
 
 /* MAIN-HEADER */
 
@@ -36,19 +75,35 @@ html {
     display: flex;
     align-items: center;
     gap: 20px;
-    color: #c68dfe;
+ 
     justify-content: space-between;
 }
 
+.main-nav {}
+
+main {
+    flex-grow: 1;
+}
+
+.card {
+    background-color: #c68dfe;
+    color: #313131;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.cards {}
+
 .main-header-item {
-    color: #c68dfe;
+
 
 }
 
 .main-header-title {
     font-size: 32px;
     text-decoration: none;
-    color: #c68dfe;
+   
 }
 
 .main-header-nav {
@@ -56,33 +111,20 @@ html {
 }
 
 .main-header-nav-item {
-    color: #c68dfe
+
 }
 
-.btm {
-    text-decoration: none;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 10px 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    transition: background-color 100ms ease-in-out 
-                color 100ms ease-in-out;
-}
-.btm:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0) ;
-}
 
 /* MAIN */
 
-main {
-    flex-grow: 1;
-}
 
-.link {
-    
-}
+
+
 
 /* MAIN-FOOTER */
 
 .main-footer {}
+
+html {
+    cursor: url(../img/cursor.png), auto ;
+}
