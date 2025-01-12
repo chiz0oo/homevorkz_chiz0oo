@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --base-year: 10s;
+    --base-radius: 200px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.stars {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+     background-color: black;
+    background-image: url(../img/stars.png); 
+}
+
+@keyframes move-stars {
+
+from{
+    background-image: 0 0;
+}
+
+to{
+    background-position: 5000px 5000px;
+}
+
+}
+
+.stars::after {
+    animation-name: move-stars;
+    animation-duration: 100s;
+    animation-timing-function: linear;
+    height: 100%;
+    width: 100%;
+    content: "";
+    display: block;
+    background-image: url(../img//twinkling.png)
+}
+
+.sun {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: 
+    translateY(-50%)
+    translateX(-50%);
+}
+
+
+
+.orbit {
+    animation-name: rotate-planet;
+    animation-duration: var(--base-year);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: 
+        translateY(-50%)
+        translateX(-50%);
+
+    width: calc(2 * var(--base-radius));
+    height: calc(2 * var(--base-radius));
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+@keyframes rotate-planet {
+    from{
+        transform: rotate(0);
+    }
+
+    top{
+        transform: rotate(360eg)
+        translateY(-50%)
+        translateX(-50%);
+    }
+}
+
