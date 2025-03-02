@@ -13,7 +13,7 @@
     --text-color: #595959;
     --text-color-light: #8c8c8c;
     --body-color: #fcfcfc;
-    --border-color: hsl(0, 0%, 94%)
+    --border-color: hsl(0, 0%, 94%);
 
     --base-width: 1024px;
 }
@@ -23,6 +23,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 .visually-hidden {
     position: absolute !important;
     width: 1px !important;
@@ -319,4 +324,29 @@ button{
 .featured-card-img {
     height: 214px;
 
+}
+
+/* esho sekcii */
+
+.testimonial-inner {
+    display: grid;
+    column-gap: 13rem;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.testimonial-slider-content {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+
+}
+
+.testimonial-slide {
+    flex-shrink: 0;
+    width: 100%;
+    scroll-snap-align: c;
 }
