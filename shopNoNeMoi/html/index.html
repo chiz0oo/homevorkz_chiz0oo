@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../img/png/favicon.png" type="image/x-icon">
+    <script defer src="../js/slider.js"></script>
+    <title>Rolex</title>
+</head>
+<body class="body">
+
+    <header class="header" id="header">
+
+        <div class="header-inner container">
+
+            <a href="#" class="logo">
+                <i class='bx bxs-watch'></i>
+                Rolex
+            </a>
+
+            <nav class="header-nav">
+
+                <ul class="nav-list">
+
+                    <!-- (li.nav-list-item>a.nav-list-link.link)*4 -->
+
+                    <li class="nav-list-item">
+                        <a href="#home" class="nav-list-link link">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-list-item">
+                        <a href="#featured" class="nav-list-link link">
+                            Featured
+                        </a>
+                    </li>
+
+                    <li class="nav-list-item">
+                        <a href="#products" class="nav-list-link link">
+                            Products
+                        </a>
+                    </li>
+
+                    <li class="nav-list-item">
+                        <a href="#new" class="nav-list-link link">
+                            New
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="header-btns">
+                <!-- (button.header-btn#btn-)*3 -->
+
+                <button class="header-btn btn-cart" id="btn-cart">
+                    <i class='bx bx-cart-alt'></i>
+                </button>
+
+                <button class="header-btn btn-menu" id="btn-menu">
+                    <i class='bx bx-category-alt'></i>
+                </button>
+
+                <button class="header-btn btn-close" id="btn-close">
+                    <i class='bx bx-x'></i>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <h1 class="visually-hidden">Rolex Shop</h1>
+
+        <!-- section.home#home -->
+         
+        <section class="home section" id="home">
+
+            <article class="home-inner container">
+                <div class="home-bg-img-container"> 
+                    <img
+                        src="../img/png/home.png"
+                        alt=""
+                        class="home-bg-img"
+                    >
+                </div>
+
+                <!-- ul.home-social>(li.home-social-item>a.home-social-link.link)*3 -->
+                
+                <ul class="home-social">
+                    <li class="home-social-item">
+                        <a
+                            href="https://www.facebook.com/"
+                            class="home-social-link link"
+                            target="_blank"
+                        >Facebook</a>
+                    </li>
+                    <li class="home-social-item">
+                        <a
+                            href="https://x.com/"
+                            class="home-social-link link"
+                            target="_blank"
+                        >Twitter</a>
+                    </li>
+                    <li class="home-social-item">
+                        <a
+                            href="https://www.instagram.com/"
+                            class="home-social-link link"
+                            target="_blank"
+                        >Instagram</a>
+                    </li>
+                </ul>
+
+                <div class="home-data">
+
+                    <h2 class="home-title">
+                        new watch
+                        <br>
+                        collections b720
+                    </h2>
+
+                    <p class="home-description">
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Mollitia optio cupiditate
+                        excepturi magnam id voluptate sit quae
+                        praesentium quas ex!
+                    </p>
+
+                    <span class="home-price">$1234</span>
+
+                    <div class="home-btns">
+                        <a
+                            href=""
+                            class="button button-gray button-small"
+                        >discover</a>
+
+                        <button
+                            class="button home-button"
+                        >add to cart</button>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+        
+        <!-- section.container.section.featured#featured -->
+
+        <section class="container section featured" id="featured">
+
+            <h2 class="section-title">featured</h2>
+
+            <div class="featured-inner">
+
+                <!-- (article.featured-card>span.featured-card-tag{sale}+img.featured-card-img+(.featured-card-data>h3.featured-card-title{watch}+span.featured-card-price{$123})+button.button.featured-card-button{add to cart})*3 -->
+
+                <article class="featured-card">
+                    <span class="featured-card-tag">sale</span>
+                    <img src="../img/png/featured1.png" alt="" class="featured-card-img">
+                    <div class="featured-card-data">
+                        <h3 class="featured-card-title">jazzmaster</h3>
+                        <span class="featured-card-price">$123</span>
+                    </div>
+                    <button class="button featured-card-button">add to cart</button>
+                </article>
+
+                <article class="featured-card">
+                    <span class="featured-card-tag">sale</span>
+                    <img src="../img/png/featured2.png" alt="" class="featured-card-img">
+                    <div class="featured-card-data">
+                        <h3 class="featured-card-title">ingersoll</h3>
+                        <span class="featured-card-price">$123</span>
+                    </div>
+                    <button class="button featured-card-button">add to cart</button>
+                </article>
+
+                <article class="featured-card">
+                    <span class="featured-card-tag">sale</span>
+                    <img src="../img/png/featured3.png" alt="" class="featured-card-img">
+                    <div class="featured-card-data">
+                        <h3 class="featured-card-title">rose gold</h3>
+                        <span class="featured-card-price">$123</span>
+                    </div>
+                    <button class="button featured-card-button">add to cart</button>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- sections -->
+
+        <section class="container section testimonial">
+            <h2 class="visually-hidden">Testimonial</h2>
+
+            <div class="testimonial-inner">
+                <div class="testimonial-slider">
+                    <div class="testimonial-slider-content">
+
+                        <!-- .testimonial-slide#slide-1 -->
+
+                        <div class="testimonial-slide" id="slide-1">
+                            <div class="testimonial-quote">
+                                <i class="bx bxs-quote-alt-left"></i>
+                            </div>
+                            <p class="testimonial-description">
+                                одев эти часы меня избили и обоссали, а это я еще из дома не вышел рекомендую!
+                            </p>
+                            <p class="testimonial-date">
+                                <time datetime="2025-03-02">
+                                    March 2. 2025
+                                </time>
+                            </p>
+                            <div class="testimonial-author">
+                                <img
+                                    src="../img/png/testimonial1.jpg"
+                                    alt=""
+                                    class="testimonial-avatar"
+                                >
+                                <div class="testimonial-author-info">
+                                    <p class="testimonial-author-name">Абдул сосалов</p>
+                                    <p class="testimonial-author-job">долбоеб</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide" id="slide-2">
+                            <div class="testimonial-quote">
+                                <i class="bx bxs-quote-alt-left"></i>
+                            </div>
+                            <p class="testimonial-description">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Sequi vero repellendus
+                                pariatur molestias tenetur nam veniam minima
+                                quam, quasi repellat facere. Veritatis et
+                                neque architecto minus quas aut quod
+                                dignissimos.
+                            </p>
+                            <p class="testimonial-date">
+                                <time datetime="2024-08-09">
+                                    August 9. 2024
+                                </time>
+                            </p>
+                            <div class="testimonial-author">
+                                <img
+                                    src="../img/png/testimonial2.jpg"
+                                    alt=""
+                                    class="testimonial-avatar"
+                                >
+                                <div class="testimonial-author-info">
+                                    <p class="testimonial-author-name">Яна Члене</p>
+                                    <p class="testimonial-author-job">эскорт</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide" id="slide-3">
+                            <div class="testimonial-quote">
+                                <i class="bx bxs-quote-alt-left"></i>
+                            </div>
+                            <p class="testimonial-description">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Sequi vero repellendus
+                                pariatur molestias tenetur nam veniam minima
+                                quam, quasi repellat facere. Veritatis et
+                                neque architecto minus quas aut quod
+                                dignissimos.
+                            </p>
+                            <p class="testimonial-date">
+                                <time datetime="2023-10-22">
+                                    October 22. 2023
+                                </time>
+                            </p>
+                            <div class="testimonial-author">
+                                <img
+                                    src="../img/png/testimonial3.jpg"
+                                    alt=""
+                                    class="testimonial-avatar"
+                                >
+                                <div class="testimonial-author-info">
+                                    <p class="testimonial-author-name">Lee Doe</p>
+                                    <p class="testimonial-author-job">Company`s director</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-slider-control">
+                        <a
+                            href="#slide-3"
+                            class="slider-control-arrow"
+                            id="slider-arrow-left"
+                        >
+                            <i class="bx bx-left-arrow-alt"></i>
+                        </a>
+                        
+                        <a
+                            href="#slide-2"
+                            class="slider-control-arrow"
+                            id="slider-arrow-right"
+                        >
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="testimonial-images">
+                    <div class="testimonial-square"></div>
+
+                    <img src="../img/png/testimonial.png" alt="" class="testimonial-img">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- <footer></footer> -->
+    
+</body>
+</html>
