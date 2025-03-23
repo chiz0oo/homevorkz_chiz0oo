@@ -491,3 +491,23 @@ button {
     right: 5rem;
 }
 
+.newsletter {
+    background-color: var(--first-color);
+    padding: 4.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.newsletter-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.newsletter-title {
+    background-color: var(--title-color);
+    font-size: 1.25;
+    text-transform: capitalize;
+}
+
