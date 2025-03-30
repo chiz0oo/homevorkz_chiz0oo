@@ -494,7 +494,7 @@ button {
 .newsletter {
     background-color: var(--first-color);
     padding: 4.5rem;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
 }
@@ -509,5 +509,14 @@ button {
     background-color: var(--title-color);
     font-size: 1.25;
     text-transform: capitalize;
+}
+
+.newsletter-form {
+    width: 100%;
+    display: flex;
+}
+
+.from-email {
+    
 }
 
